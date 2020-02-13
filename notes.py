@@ -31,4 +31,4 @@ else:
 	
 
 
-    git remote add origin https://github.com/amelincpu/Python.git
+# git remote add origin https://github.com/amelincpu/Python.git
