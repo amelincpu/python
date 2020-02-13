@@ -1,14 +1,11 @@
 # integer is a numeric type
 var_a = 1
-print(var_a)
+print('\nvar_a variable =', (var_a))
 
 type(var_a) # type() - data type checking
-print(type(var_a))
-
+print('var_a variable data type is:', type(var_a))
 
 id(var_a) # id() - memory id check
-print(id(var_a))
-
+print('\na memory cell id for var_a variable is:', id(var_a), '\nif we change var_a: "var_a = var_a + 1"')
 var_a = var_a + 1
-print('memory is is:', id(var_a))
-
+print('var_a variable =', (var_a), '\na memory cell id for var_a variable is:', id(var_a))
