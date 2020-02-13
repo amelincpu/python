@@ -1,15 +1,3 @@
-#github testing
-
-# git config --global user.name "amelincpu"
-# git config --global user.email "amelincpu@gmail.com"
-
-# https://github.com/amelincpu/test.git
-
-# 'git init' 
-# 'git add .' - add all files
-# 'git commit -m "description for commit"' - commit all changes
-# 'git remote add origin https://github.com/amelincpu/test.git' - set remote repository
-# 'git push -u origin master' - push files to the repository
 
 t1 = input('ss: ')
 
@@ -29,6 +17,3 @@ else:
     print('it is not a string')
 	
 	
-
-
-# git remote add origin https://github.com/amelincpu/Python.git
