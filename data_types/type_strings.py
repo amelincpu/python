@@ -1,4 +1,4 @@
-# integer is a text type
+# String <class 'str'> is a text type.
 var_a = 'Hello World!'
 print('\nvar_a variable =', (var_a))
 
