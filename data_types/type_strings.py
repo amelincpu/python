@@ -41,3 +41,33 @@ var_a_up = var_a.upper() # make all symbols upper case
 print(var_a_up)
 var_a_low = var_a.lower() # make all symbols lower case
 print(var_a_low)
+
+# str method
+print('\n"str" method using:', str.lower(var_a))
+
+# format method
+var_c = 'interface {}'
+var_d = 'Fa0/1'
+var_e = var_c.format(var_d)
+print('\n"format" method using:', var_e)
+var_f = '{} {} {}'
+var_g = var_f.format('Switch', 14, (var_d))
+print('\n"format" method using:', var_g)
+
+# output editing 
+var_f = '{:20} {:<20} {:20}' # ':' - width; '<' - alignment
+var_g = var_f.format('Switch', 14, (var_d))
+print('\n"format" method using:', var_g)
+var_g = var_f.format('Switch', 21, (var_d))
+print('"format" method using:', var_g)
+
+# format converting
+print('\n4 is', '{:b}'.format(4), 'in binary') # ':b' - to binary
+print(' 4 is', '{:08b}'.format(4), 'in binary') # '08' - fill 0 till 8 symbols
+
+# call {} by names
+var_f = '''
+IP address: {var_f1}
+Mask:       {var_f2}
+'''
+print('\n',var_f.format(var_f1='1.1.1.1', var_f2='255.255.255.0'))
