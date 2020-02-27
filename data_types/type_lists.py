@@ -1,4 +1,4 @@
-# list is a collection which is ordered and changeable. Allows duplicate members.
+# Sequence Type: A list <class 'list'> is a collection which is ordered and changeable. Allows duplicate members.
 var_a = [1, 2, 'hello', 'two']
 print('\nvar_a variable =', (var_a))
 #

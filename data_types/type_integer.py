@@ -1,4 +1,4 @@
-# Integer <class 'int'> is a numeric type. Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+# Numeric Type: Integer <class 'int'> is a numeric type. Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
 var_a = 1
 print('\nvar_a variable =', (var_a))
 #

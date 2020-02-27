@@ -1,4 +1,4 @@
-# A dictionary <class 'dict'> is a collection, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+# Mapping Type: A dictionary <class 'dict'> is a collection, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 var_a = {
     'type': 'car',
     'color': 'blue',

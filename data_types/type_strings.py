@@ -1,4 +1,4 @@
-# String <class 'str'> is a text type.
+# Text Type: A string <class 'str'> is a text type.
 var_a = 'Hello World!'
 print('\nvar_a variable =', (var_a))
 #
