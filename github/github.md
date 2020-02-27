@@ -18,15 +18,17 @@ work on the current change
 
 _'git add .'_    - add all files
 
+grow, mark and tweak your common history
+---
+
+_'git commit -m "description for commit"'_    - commit all changes
+
+collaborate
+---
+
+_'git push -u origin master'_    - push files to the repository
+
 checking settings
 ---
 
-_'git config --list'_<br/><br/><br/><br/><br/>
-
-
-
-
-
-
-_'git commit -m "description for commit"'_    - commit all changes<br/>
-_'git push -u origin master'_    - push files to the repository<br/>
+_'git config --list'_
