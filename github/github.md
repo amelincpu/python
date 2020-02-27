@@ -1,6 +1,6 @@
 github testing
 ===
-_git config --global user.name "amelincpu"_<br/>
+<span style="color:red">_git config --global user.name "amelincpu"_<span><br/>
 _git config --global user.email "amelincpu@gmail.com"_<br/>
 _git init_<br/>
 <br/>
