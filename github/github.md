@@ -1,12 +1,16 @@
 github testing
 ===
+
 Your Identity
 ---
+
 _'git config --global user.name "amelincpu"'_<br/>
 _'git config --global user.email "amelincpu@gmail.com"'_<br/>
 _'git remote add origin https://github.com/amelincpu/test.git'_    - set remote repository<br/>
+
 Checking Settings
 ---
+
 _'git config --list'_<br/><br/><br/><br/><br/>
 
 
