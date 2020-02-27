@@ -1,8 +1,8 @@
-# github testing
-<br/>
-git config --global user.name "amelincpu"<br/>
-git config --global user.email "amelincpu@gmail.com"<br/>
-git init<br/>
+github testing
+===
+_git config --global user.name "amelincpu"_<br/>
+_git config --global user.email "amelincpu@gmail.com"_<br/>
+_git init_<br/>
 <br/>
 git add . - add all files<br/>
 git commit -m "description for commit"' - commit all changes<br/>
