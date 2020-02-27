@@ -13,17 +13,17 @@ start a working area
 
 _'git init'_    - create an empty Git repository or reinitialize an existing one
 
-work on the current change
+a. work on the current change
 ---
 
-_'git add .'_    - add all files
+_'git add .'_    - add file contents to the index
 
-grow, mark and tweak your common history
+b. grow, mark and tweak your common history
 ---
 
 _'git commit -m "description for commit"'_    - commit all changes
 
-collaborate
+c. collaborate
 ---
 
 _'git push -u origin master'_    - push files to the repository
