@@ -71,3 +71,20 @@ IP address: {var_f1}
 Mask:       {var_f2}
 '''
 print('\n',var_f.format(var_f1='1.1.1.1', var_f2='255.255.255.0'))
+#
+print('\n', '*'*50, '\n')
+#
+# join method
+var_h = ['test1',
+    'test2',
+    'test3',
+    'test4']
+print('var_h =', var_h)
+#
+var_i = ''.join(var_h)
+print('var_i =', var_i)
+#
+var_i = '\n'.join(var_h) # join with a new line between
+print('var_i =', var_i)
+#
+print('\n', '*'*50, '\n')
