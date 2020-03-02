@@ -7,6 +7,8 @@ var_a = input('enter value of var_a:')
 print('value of var_a is:', var_a)
 print('var_a variable data type is:', type(var_a))
 #
+input('Press Enter') # input using to make a pause
+#
 print('\n', '*'*50, '\n')
 #
 # int - Convert a number or string to an integer, or return 0 if no arguments are given.

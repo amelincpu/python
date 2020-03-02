@@ -88,3 +88,11 @@ var_i = '\n'.join(var_h) # join with a new line between
 print('var_i =', var_i)
 #
 print('\n', '*'*50, '\n')
+#
+# split method
+var_h = '192.168.32.34'
+print('var_h =', var_h, 'type is:', type(var_h))
+var_i = var_h.split('.')
+print('\nvar_i =', var_i, 'type is:', type(var_i))
+#
+print('\n', '*'*50, '\n')
