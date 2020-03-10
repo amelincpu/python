@@ -11,7 +11,7 @@ print('\n', '*'*50, '\n')
 #
 # if-else
 var_a = 2
-print('var_a =', var_a)
+print('variable var_a =', var_a)
 if var_a > 3:
     print('var_a > 3')
 else:
@@ -21,7 +21,7 @@ print('\n', '*'*50, '\n')
 #
 # if-elif-else vs if-if-else
 var_a = 5
-print('var_a =', var_a)
+print('variable var_a =', var_a)
 if var_a > 3:
     print('var_a > 3')
 elif var_a == 5:
@@ -31,21 +31,13 @@ else:
 #
 print('\n', '*'*50, '\n')
 #
-
 var_a = 5
-print('var_a =', var_a)
+print('variable var_a =', var_a)
 if var_a > 3:
     print('var_a > 3')
-if var_a == 5:
-    print('var_a = 5')
+    if var_a == 5:
+         print('var_a = 5')
 else:
     print('var_a < 3')
-
-
-
-
-
-
-
 #
 print('\n', '*'*50, '\n')
