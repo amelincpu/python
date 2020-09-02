@@ -25,12 +25,12 @@ for var_x in var_b1: # executes the body for all elements in the list
     var_b2.append('{:08b}'.format(int(var_x)))
     print('add', '{:03}'.format(int(var_x)), '| var_b2 =', var_b2)
 print('\nvar_b2=', var_b2)
-print('var_b2 type is', type(var_b2))
+print('var_b2 type is', type(var_b2)) 
 #
 print('\n', '*'*50, '\n')
 #
 # 'range' using in 'for'
-for var_x in range(5):
-    print('interface Gi0/{}'.format(var_x))
+for var_y in range(6):
+    print('interface Gi0/{}'.format(var_y))
 #
 print('\n', '*'*50, '\n')
