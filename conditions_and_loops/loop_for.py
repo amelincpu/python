@@ -11,6 +11,7 @@ print('var_a=', var_a)
 #
 print('\n', '*'*50, '\n')
 #
+#
 # en example of 'for' using
 var_b = '192.168.23.45'
 print('var_b=', var_b)
@@ -29,8 +30,27 @@ print('var_b2 type is', type(var_b2))
 #
 print('\n', '*'*50, '\n')
 #
+#
 # 'range' using in 'for'
 for var_y in range(6):
     print('interface Gi0/{}'.format(var_y))
+#
+print('\n', '*'*50, '\n')
+#
+#
+# a double loop example
+#
+#var_c = ['0/1', '0/2', '0/3'] it is equal:
+var_c =[]
+for var_y1 in range(3):
+    var_c.append('0/{}'.format(var_y1))
+#
+var_d = ['no shutdown', 'switchport mode access', 'switchport access vlan 5']
+print('var_c=', var_c)
+print('var_d=', var_d)
+for var_x1 in var_c:
+    print('\ninterface Gi{}'.format(var_x1))
+    for var_x2 in var_d:
+        print(var_x2)
 #
 print('\n', '*'*50, '\n')
