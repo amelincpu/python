@@ -1,0 +1,4 @@
+int fa 0/1
+no shut
+switchport mode access
+switchport access vlan 10

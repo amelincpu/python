@@ -2,9 +2,11 @@
 var_a = [1, 2, 'hello', 'two']
 print('\nvar_a variable =', (var_a))
 #
-var_b = [1, 2,
-'hello',
-'two']
+var_b = [
+    1, 2,
+    'hello',
+    'two'
+]
 print('var_a variable =', (var_a))
 #
 type(var_a) # type() - data type checking
