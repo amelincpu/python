@@ -2,8 +2,7 @@
 var_a = {
     'type': 'car',
     'color': 'blue',
-    'number': 23
-}
+    'number': 23}
 #
 print('\n', '*'*100, '\n')
 #
