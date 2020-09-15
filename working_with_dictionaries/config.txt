@@ -1,0 +1,29 @@
+interface GigabitEthernet0/3.301
+ vlan 301
+ nameif 301-ASSOC-CLIENT
+ security-level 100
+ ip address 10.0.4.129 255.255.255.192 standby 10.0.4.130 
+!
+interface GigabitEthernet0/3.450
+ vlan 450
+ nameif 450-ASSOCIATE_LAPTOP_WIFI
+ security-level 100
+ ip address 10.0.4.193 255.255.255.224 standby 10.0.4.194 
+!
+interface GigabitEthernet0/3.451
+ vlan 451
+ nameif 451-ASSOC-PDA/HAND
+ security-level 100
+ ip address 10.0.5.1 255.255.255.224 standby 10.0.5.2 
+!
+interface GigabitEthernet0/3.601
+ vlan 601
+ nameif 601-ASSOCVOIP
+ security-level 0
+ ip address 172.16.0.1 255.255.255.0 standby 172.16.0.2 
+!
+interface GigabitEthernet0/3.650
+ vlan 650
+ nameif 650-Wireless_VOIP
+ security-level 0
+ ip address 172.16.2.1 255.255.255.0 standby 172.16.2.2 

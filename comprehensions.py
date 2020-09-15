@@ -26,7 +26,15 @@ print('\n', '*'*50, '\n')
 #
 # Creating a set by comprehension:
 v_from_device1 = ['vlan', 10, 'vlan', 20, 'vlan', 30,  'vlan', 10]
-v_vlan_list1 = {v_item2 for v_item2 in v_from_device1 if type(v_item2) == int}
-print(v_vlan_list1)
+v_vlan_set = {v_item2 for v_item2 in v_from_device1 if type(v_item2) == int}
+print(v_vlan_set)
+#
+print('\n', '*'*50, '\n')
+#
+# Creating a dictionary by comprehension:
+v_list = list(range(7))
+print(v_list)
+v_dictionary = {v_key: v_key for v_key in v_list}
+print(v_dictionary)
 #
 print('\n', '*'*50, '\n')
