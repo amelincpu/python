@@ -10,10 +10,21 @@ Groupe/set of symbols:
 
 Repeat symbols:
 
-regex
-regex
-regex
-regex
-regex
-regex
-regex
+regex+ - one or more repeats of the element
+regex* - zero or more repeats of the element
+regex? - zero or one repeat of the element
+regex{n} - n repeats of the element
+regex{n,m} - from n to m repeats of the element
+regex{n, } - n or more repeats of the element
+
+
+Special symbols:
+
+. - any symbole exclude \n
+^ - line begin
+$ - line end
+[abc] - any symbole from brakets
+[^abc] - any symbole exclude any symbole from brakets
+a|b - a or b
+(regex) - to groupe as one element
+? - limits requests
