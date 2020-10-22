@@ -39,3 +39,10 @@ print(match.group(2, 1, 2))
 print(match[2])
 
 print('\n', '*'*50, '\n',  end='')
+
+match = re.search('(?P<name1>Fast).*(?P<name2>Serial)', v_line)
+print(match.groupdict())
+print(match.group('name1'))
+
+
+print('\n', '*'*50, '\n',  end='')
