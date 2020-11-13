@@ -1,0 +1,3 @@
+Interface IP-Address Method Status Protocol FastEthernet0/0 10.1.1.1 mac 0001.345a.ee45f
+Interface IP-Address Method Status Protocol FastEthernet0/1 192.168.11.254 mac 0221.345a.e845f
+Interface IP-Address Method Status Protocol FastEthernet0/2 10.5.34.129 mac 1e01.345a.ee41
