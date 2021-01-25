@@ -1,4 +1,5 @@
-# Enumerate function.
+"""Enumerate function."""
+
 
 print('\n', '*'*50, '\n')
 
