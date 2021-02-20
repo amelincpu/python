@@ -1,0 +1,131 @@
+
+R1>en
+Password: 
+R1#terminal length 0
+R1#sh run
+Building configuration...
+
+Current configuration : 1441 bytes
+!
+upgrade fpd auto
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+logging message-counter syslog
+enable secret 5 $1$sLs7$UtndEo2Ndg9L15aLBOrOl/
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+!
+!
+aaa session-id common
+ip source-route
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+ip domain name gns3.local
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username alex privilege 15 secret 5 $1$sHhB$XxEk.hFiXEPxfihXZhsMm1
+archive
+ log config
+  hidekeys
+! 
+!
+!
+!
+!
+ip tcp synwait-time 5
+ip ssh version 2
+!
+!
+!
+!
+interface Ethernet0/0
+ no ip address
+ shutdown
+ duplex auto
+!
+interface GigabitEthernet0/0
+ ip address 10.1.1.3 255.255.255.0 secondary
+ ip address 10.1.1.4 255.255.255.0 secondary
+ ip address 10.1.1.5 255.255.255.0 secondary
+ ip address 10.1.1.2 255.255.255.0
+ duplex full
+ speed 1000
+ media-type gbic
+ negotiation auto
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+no cdp log mismatch duplex
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ transport input telnet ssh
+line vty 5 15
+ transport input telnet ssh
+!
+end
+
+R1#
