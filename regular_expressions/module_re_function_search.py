@@ -53,10 +53,10 @@ fromlog = re.search(r'(Protocol) (\S+) (?P<ipaddress>(?:\d+\.){3}\d)', logline) 
 # method 'group'
 print(fromlog)
 print(fromlog.group())
-print(fromlog.group(0)) # '0' whole match
-print(fromlog.group(1)) # '1' 1st brackets match
-print(fromlog.group(2)) # '2' 2nd brackets match
-print(fromlog.group(3)) # '3' 3rd brackets match
+print(fromlog.group(0))  # '0' whole match
+print(fromlog.group(1))  # '1' 1st brackets match
+print(fromlog.group(2))  # '2' 2nd brackets match
+print(fromlog.group(3))  # '3' 3rd brackets match
 print(fromlog.group(3, 2))
 print(fromlog.group('ipaddress'))
 print(type(fromlog.group(1)))
