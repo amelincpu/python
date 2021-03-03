@@ -4,6 +4,7 @@
 import netmiko
 import os
 import sys
+import datetime
 
 
 def print_stars():
@@ -16,7 +17,7 @@ print_stars()
 ssh_device = {'device_type': 'cisco_ios',
               'ip': '10.1.1.2',
               'username': 'alex',
-              'password': 'alex1',
+              'password': 'alex',
               'secret': 'alex'}
 
 try:
@@ -41,7 +42,7 @@ try:
 
     print_stars()
 
-    with open(os.path.join(sys.path[0], 'startup.cfg'), 'w') as txt_file:
+    with open(os.path.join(sys.path[0], 'startup_'+datetime.datetime.now().strftime('%Y%m%d_%H%M%S')+'.cfg'), 'w') as txt_file:
         txt_file.write(ssh_session.send_command('show start'))
 
     ssh_session.disconnect()
