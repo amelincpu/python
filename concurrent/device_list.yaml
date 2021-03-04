@@ -4,12 +4,12 @@
   password: alex
   secret: alex
 - device_type: cisco_ios
-  ip: 10.1.1.2
+  ip: 10.1.1.3
   username: alex
   password: alex
   secret: alex
 - device_type: cisco_ios
-  ip: 10.1.1.2
+  ip: 10.1.1.4
   username: alex
   password: alex
   secret: alex
