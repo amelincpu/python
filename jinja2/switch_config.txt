@@ -1,0 +1,13 @@
+
+Interface Fa 1/1
+switchport
+switchport access vlan 20
+!
+Interface Fa 1/2
+switchport
+switchport access vlan 30
+!
+Interface Fa 1/4
+switchport
+switchport access vlan 10
+!

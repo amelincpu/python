@@ -1,0 +1,5 @@
+
+Interface Fa {{interface}}
+switchport
+switchport access vlan {{vlan}}
+!

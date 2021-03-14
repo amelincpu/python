@@ -1,0 +1,6 @@
+- interface: 1/1
+  vlan: 20
+- interface: 1/2
+  vlan: 30
+- interface: 1/4
+  vlan: 10
